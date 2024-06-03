@@ -1,0 +1,83 @@
+----------------Flask App_01 ----------------
+
+# Flask is a web framework for Python
+# Flask is a micro web framework written in Python
+# Flask is based on Werkzeug WSGI toolkit and Jinja2 template engine
+# Flask is a lightweight WSGI web application framework
+# Flask is designed to make getting started quick and easy, with the ability to scale up to complex applications
+# Flask is a "micro" framework for Python, it does not require particular tools or
+# libraries (except for pytest for testing) like other frameworks such as Django or Pyramid (required for database, ORM, etc)
+# Flask is a good choice for building web applications in a modular way using Python
+
+project structure:
+- app.py
+- requirements.txt
+- .gitignore
+- venv/
+
+
+
+            Installations:
+
+1- create Repository on Github (Flask_App_01) 
+
+2- creat a directory for the project (mkdir Flask_Applications)
+
+3- cd Flask_App_01 (change directory)
+
+4- git clone (url,Ssh) (clone the repository)
+
+5- cd Flask_App_01 (change directory)
+
+6- create a virtual environment (python3 -m venv venv)
+
+7- activate the virtual environment (source venv/bin/activate)
+
+# check the version of python (python --version)
+# check the version of pip (pip --version)
+# check installed packages (pip list)  show the installed packages
+
+NOTE:
+when you creat a virtual environment its empty, 
+you need to install the packages you need for your project
+
+8- install Flask (pip install Flask)
+
+9- check the installed packages (pip list) show the installed packages
+
+10 create requirements.txt file (pip freeze > requirements.txt) 
+    # this file contains all the packages that you have installed 
+    in your virtual environment
+
+    # when you share your project with someone else, 
+    they can install with this specific version of the packages
+    for Installations (pip install -r requirements.txt)
+
+    # when you deploy your project to a server,
+    the server will install the packages from the requirements.txt file
+
+    # when you installed an additional package, 
+    you need to update the requirements.txt file (pip freeze > requirements.txt)
+
+11- create a file app.py (touch app.py) or (code app.py) or (nano app.py)
+     #  and you create any file using this command:
+        #  echo "print('Hello World')" > app.py
+        #  touch app.py  (create a file) + ctrl+s (save)
+        #  nano app.py (create a file) + ctrl+o (save) + ctrl+x (exit)
+        #  code app.py (create a file) + ctrl+s (save) + ctrl+w (close)
+
+12- create  .gitignore file :
+    # this file contains the files that you don't want to push to the repository
+    # create a file .gitignore (touch .gitignore) or (code .gitignore) or (nano .gitignore)
+    # add the files that you don't want to push to the repository
+    Example:
+    venv/  (virtual environment)
+    __pycache__/  (cache files)
+    .vscode/  (visual studio code files)
+    .DS_Store  (mac files)
+    .env  (environment variables)
+    .pytest_cache/  (pytest cache files)
+    .database/  (database files)
+    .idea/  (pycharm files)
+
+
