@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Enter and Calculate Average Mask :</h1>
+    <form action="{{ url_for('form') }}" method="post">
+      
+       <input type="text" name="math" required ='required' placeholder="math">
+     
+       <input type="text" name="english" required ='required' placeholder="english">
+      
+       <input type="text" name="urdu" required ='required' placeholder="urdu">
+        <button type="submit">Calculate</button>
+    </form>
+
+    <br>
+    <h1> Average Marks is {{score}}</h1>
+    
+</body>
+</html>
